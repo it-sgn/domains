@@ -22,6 +22,10 @@ D('is-an.app', NewRegistrar('none'), DnsProvider(NewDnsProvider('cloudflare')), 
 
   // subdomains, given for free previously
   A('medlexo', '185.27.134.137', CF_PROXY_ON),
+  A('glm','36.89.142.90'),
+  A('qa.glm','36.89.142.91'),
+  A('auth.glm','36.89.142.92'),
+  A('srv.glm','36.89.142.93'),
   CNAME('abhirockz', 'yopremium21.github.io.'),
   CNAME('aviana', 'cname.vercel-dns.com.'),
   CNAME('azumi', 'azumi-development.github.io.', CF_PROXY_ON),
